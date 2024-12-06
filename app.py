@@ -37,7 +37,7 @@ def main():
 
     # Sidebar menu
     st.sidebar.title('Menu')
-    menu_options = ['Prediksi Hero', 'Dataset', 'Deskripsi Dataset']
+    menu_options = ['Deskripsi Dataset', 'Prediksi Hero', 'Dataset']
     selected_menu = st.sidebar.selectbox('Pilih Menu', menu_options)
     
     # Muat data
